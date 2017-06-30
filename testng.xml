@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Q4Task" verbose="1" thread-count="3" parallel="tests" configfailurepolicy="continue">
+
+
+    <test name="Q4Task-test"  preserve-order="true">
+        <packages>
+            <package name="com.xyzcorp.api.*"/>
+            <package name="com.xyzcorp.loadRunner.*"/>
+        </packages>
+    </test>
+</suite>
+
